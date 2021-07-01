@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>paoza bbs</title>
+    <title>paiza bbs</title>
     <style>body {padding:10px;}</style>
 </head>
 <body>
     <h1>Hello bbs</h1>
+    <p>{{message}}</p>
+    {% for player in players %}
+        <p>{{player}}はモンスターと戦った</p>
+    {% endfor %}
 </body>
 </html>
